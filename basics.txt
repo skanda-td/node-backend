@@ -1,0 +1,29 @@
+What is Node.js?
+
+Node.js = JavaScript runtime outside browser
+Lets you build backend (APIs, servers) using JavaScript
+Uses event-driven, non-blocking model → very fast & scalable
+
+Simple Understanding
+Browser JS → UI
+Node.js → Server (like Java, Spring Boot)
+
+Analogy
+Think of Node.js like a restaurant waiter who doesn’t wait at one table → takes multiple orders and serves efficiently (non-blocking).
+
+"scripts": {
+  "start": "node index.js",
+  "dev": "nodemon index.js"
+}
+
+Explanation
+    start → run app normally
+    dev → run with auto-reload
+
+Analogy
+    start = production mode
+    dev = developer mode
+
+Node.js is single-threaded but handles concurrency via event loop
+Don’t block execution (no heavy sync tasks)
+Always use async patterns (we’ll cover next)
